@@ -3,7 +3,7 @@ package com.aishwary.URLShortener.util;
 import java.util.Random;
 
 public class ShortCodeGenerator {
-    private static final String CHAR_SET = "abcdefghijklmnopqrstuvwxyz";
+    private static final String CHAR_SET = "abcdefghijklmnopqrstuvwxyz1234567890";
 
     public static String generateCode() {
         Random rand = new Random();
